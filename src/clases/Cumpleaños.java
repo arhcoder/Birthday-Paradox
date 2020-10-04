@@ -26,7 +26,7 @@ public class Cumpleaños {
         {
             cumple = (int) Math.floor(Math.random()* 365 + 1);
             Mapaches[i] = cumple;
-            System.out.println("Cumpleaños del Mapache "+((int)i+1)+": "+Mapaches[i]);
+            System.out.println("Cumpleaños del Mapache "+((int)i+1)+": Día "+Mapaches[i]);
         }
         System.out.println("_______________________________________\n");
         
@@ -45,7 +45,7 @@ public class Cumpleaños {
             
             if(n > 1)
             {
-                System.out.println("Día "+day+": "+n+" mapaches cumpleañeros.");
+                System.out.println("Día "+day+": "+n+" mapaches cumpleañeros");
                 coincidencias = true;
             }
         }
@@ -55,6 +55,7 @@ public class Cumpleaños {
         {
             System.out.println("No hay coincidencias de cumpleaños.");
         }
+        System.out.println("\nCantidad de mapaches: " + cantidad);
         System.out.println("_______________________________________\n");
     }
 }
